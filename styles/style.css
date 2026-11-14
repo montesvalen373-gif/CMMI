@@ -442,3 +442,100 @@ ul.texto4 li {
     background-color: #ffffff;
     padding: 4px;
 }
+@media (max-width: 600px) {
+    body::before {
+        height: 760px;
+        background-position: center;
+    }
+    header.header-principal {
+        padding: 20px 6%;
+    }
+    body > .parte1 > .parte1 {
+        padding: 55px 6% 90px;
+    }
+    .parte1 h1 {
+        font-size: 2.2rem;
+    }
+    .parte1 p {
+        font-size: 0.95rem;
+    }
+    /* Parte 2 */
+    .parte2 {
+        flex-direction: column;
+        padding: 60px 6%;
+    }
+    .contenedor1,
+    .contenedor2,
+    .parte2 .contenedor3 {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+    /* Parte 3 */
+    .parte3 {
+        padding: 50px 6%;
+    }
+    .parte3 .contenedor3 {
+        flex-direction: column;
+    }
+    .caja3,
+    .imagen3 {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+    /* Parte 4 */
+    .parte4 {
+        padding: 60px 6%;
+    }
+    .contenedor4 {
+        flex-direction: column;
+    }
+    .imagen4,
+    .caja4 {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+    /* Parte 5 */
+    .parte5 {
+        padding: 60px 6%;
+    }
+    .contenedor5 {
+        flex-direction: column;
+    }
+    .tarjeta5 {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+    /* Parte 6: Forzar estrictamente 3 columnas para los 6 logos */
+    .parte6 {
+        padding: 40px 6%;
+    }
+    .imagenes {
+        display: grid ;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px ;
+        align-items: center ;
+        justify-items: center ;
+    }
+    .logo6 {
+        max-width: 70px ;
+        height: auto ;
+    }
+    /* Parte 7 */
+    .parte7 {
+        padding: 60px 6%;
+    }
+    .cuadricula7 {
+        flex-direction: column;
+    }
+    .info7,
+    .formulario7 {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+    /* Parte 8 */
+    .parte8 {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
